@@ -37,7 +37,10 @@ class CleverBot
 
   def make_request
     query_string = build_query
-    result = RestClient.post @service_uri, query_string
+    result = RestClient.post(
+      @service_uri,
+      query_string,
+      :'Cookie' => 'XVIS=TEI939AFFIAGAYQZ')
     return result.body.split "\r"
   end
 
