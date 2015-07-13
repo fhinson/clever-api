@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "clever-api"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.summary     = "CleverBot API for Ruby"
   s.description = "CleverBot API for Ruby"
   s.author      = "Francis Hinson"
